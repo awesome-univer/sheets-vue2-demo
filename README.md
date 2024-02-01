@@ -21,7 +21,7 @@ npm install # npm version >= 7  or pnpm install
 ### Compiles and hot-reloads for development
 
 ```bash
-npm run serve
+npm run start
 ```
 
 ### Compiles and minifies for production
