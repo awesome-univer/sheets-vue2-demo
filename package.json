@@ -12,17 +12,17 @@
     "npm": ">=7.0.0"
   },
   "dependencies": {
-    "@univerjs/core": "*",
-    "@univerjs/design": "*",
-    "@univerjs/docs": "*",
-    "@univerjs/engine-formula": "*",
-    "@univerjs/engine-render": "*",
-    "@univerjs/sheets": "*",
-    "@univerjs/sheets-formula": "*",
-    "@univerjs/sheets-ui": "*",
-    "@univerjs/ui": "*",
+    "@univerjs/core": "^0.1.0-beta.5",
+    "@univerjs/design": "^0.1.0-beta.5",
+    "@univerjs/docs": "^0.1.0-beta.5",
+    "@univerjs/engine-formula": "^0.1.0-beta.5",
+    "@univerjs/engine-render": "^0.1.0-beta.5",
+    "@univerjs/sheets": "^0.1.0-beta.5",
+    "@univerjs/sheets-formula": "^0.1.0-beta.5",
+    "@univerjs/sheets-ui": "^0.1.0-beta.5",
+    "@univerjs/ui": "^0.1.0-beta.5",
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "vue": "^2.7.16"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -32,7 +32,7 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "vue-template-compiler": "^2.6.14"
+    "vue-template-compiler": "^2.7.16"
   },
   "eslintConfig": {
     "root": true,
