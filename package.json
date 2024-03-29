@@ -5,49 +5,30 @@
   "private": true,
   "scripts": {
     "start": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "vue-cli-service build"
   },
   "engines": {
     "npm": ">=7.0.0"
   },
   "dependencies": {
-    "@univerjs/core": "^0.1.4",
-    "@univerjs/design": "^0.1.4",
-    "@univerjs/docs": "^0.1.4",
-    "@univerjs/docs-ui": "^0.1.4",
-    "@univerjs/engine-formula": "^0.1.4",
-    "@univerjs/engine-render": "^0.1.4",
-    "@univerjs/sheets": "^0.1.4",
-    "@univerjs/sheets-formula": "^0.1.4",
-    "@univerjs/sheets-ui": "^0.1.4",
-    "@univerjs/ui": "^0.1.4",
-    "core-js": "^3.8.3",
-    "vue": "^2.7.16"
+    "@univerjs/core": "^0.1.5",
+    "@univerjs/design": "^0.1.5",
+    "@univerjs/docs": "^0.1.5",
+    "@univerjs/docs-ui": "^0.1.5",
+    "@univerjs/engine-formula": "^0.1.5",
+    "@univerjs/engine-render": "^0.1.5",
+    "@univerjs/sheets": "^0.1.5",
+    "@univerjs/sheets-formula": "^0.1.5",
+    "@univerjs/sheets-ui": "^0.1.5",
+    "@univerjs/ui": "^0.1.5",
+    "core-js": "^3.36.1",
+    "vue": "2.7.16"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/eslint-parser": "^7.12.16",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3",
-    "vue-template-compiler": "^2.7.16"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "@babel/eslint-parser"
-    },
-    "rules": {}
+    "@babel/core": "^7.24.3",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "vue-template-compiler": "2.7.16"
   },
   "browserslist": [
     "> 1%",
