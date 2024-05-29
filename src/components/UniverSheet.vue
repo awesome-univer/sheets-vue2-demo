@@ -8,7 +8,7 @@ import "@univerjs/ui/lib/index.css";
 import "@univerjs/sheets-ui/lib/index.css";
 import "@univerjs/sheets-formula/lib/index.css";
 
-import { Univer } from "@univerjs/core";
+import { Univer, UniverInstanceType } from "@univerjs/core";
 import { defaultTheme } from "@univerjs/design";
 import { UniverDocsPlugin } from "@univerjs/docs";
 import { UniverDocsUIPlugin } from "@univerjs/docs-ui";
@@ -65,9 +65,6 @@ export default {
       univer.registerPlugin(UniverFormulaEnginePlugin);
       univer.registerPlugin(UniverUIPlugin, {
         container: this.$refs.container,
-        header: true,
-        toolbar: true,
-        footer: true,
       });
 
       // doc plugins
@@ -82,7 +79,7 @@ export default {
       univer.registerPlugin(UniverSheetsFormulaPlugin);
 
       // create workbook instance
-      this.workbook = univer.createUniverSheet(data);
+      this.workbook = univer.createUnit(UniverInstanceType.UNIVER_SHEET, data);
     },
     /**
      * Destroy univer instance and workbook instance
