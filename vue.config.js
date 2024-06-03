@@ -1,9 +1,11 @@
 const { defineConfig } = require('@vue/cli-service')
+const { UniverPlugin } = require('@univerjs/webpack-plugin')
+
 module.exports = defineConfig({
   transpileDependencies: true,
   configureWebpack:  {
-    externals: {
-      fs: 'commonjs2 node:fs'
-    }
-  }
+    plugins: [
+      new UniverPlugin()
+    ]
+  },
 })

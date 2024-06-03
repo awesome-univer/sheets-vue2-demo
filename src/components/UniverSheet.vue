@@ -3,12 +3,7 @@
 </template>
 
 <script>
-import "@univerjs/design/lib/index.css";
-import "@univerjs/ui/lib/index.css";
-import "@univerjs/sheets-ui/lib/index.css";
-import "@univerjs/sheets-formula/lib/index.css";
-
-import { Univer, UniverInstanceType } from "@univerjs/core";
+import { Univer, UniverInstanceType, LocaleType } from "@univerjs/core";
 import { defaultTheme } from "@univerjs/design";
 import { UniverDocsPlugin } from "@univerjs/docs";
 import { UniverDocsUIPlugin } from "@univerjs/docs-ui";
@@ -18,6 +13,9 @@ import { UniverSheetsPlugin } from "@univerjs/sheets";
 import { UniverSheetsFormulaPlugin } from "@univerjs/sheets-formula";
 import { UniverSheetsUIPlugin } from "@univerjs/sheets-ui";
 import { UniverUIPlugin } from "@univerjs/ui";
+import { zhCN, enUS } from 'univer:locales'
+// TODO:
+import "@univerjs/sheets-ui/lib/index.css";
 
 export default {
   name: 'UniverSheet',
@@ -57,6 +55,11 @@ export default {
      init (data = {}) {
       const univer = new Univer({
         theme: defaultTheme,
+        locale: LocaleType.EN_US,
+        locales: {
+          [LocaleType.ZH_CN]: zhCN,
+          [LocaleType.EN_US]: enUS,
+        },
       });
       this.univer = univer;
 
