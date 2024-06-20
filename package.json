@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.24.6",
-    "@univerjs/webpack-plugin": "^0.4.4",
+    "@univerjs/webpack-plugin": "0.4.3",
     "@vue/cli-plugin-babel": "~5.0.8",
     "@vue/cli-service": "~5.0.8",
     "vue-template-compiler": "2.7.16"
