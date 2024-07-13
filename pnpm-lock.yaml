@@ -27,10 +27,10 @@ importers:
         specifier: 0.2.3
         version: 0.2.3(@univerjs/core@0.2.3(@grpc/grpc-js@1.10.11)(@wendellhu/redi@0.15.5)(rxjs@7.8.1))(@wendellhu/redi@0.15.5)(rxjs@7.8.1)
       '@univerjs/network':
-        specifier: ^0.2.3
+        specifier: 0.2.3
         version: 0.2.3(@univerjs/core@0.2.3(@grpc/grpc-js@1.10.11)(@wendellhu/redi@0.15.5)(rxjs@7.8.1))(@wendellhu/redi@0.15.5)(rxjs@7.8.1)
       '@univerjs/rpc':
-        specifier: ^0.2.3
+        specifier: 0.2.3
         version: 0.2.3(@univerjs/core@0.2.3(@grpc/grpc-js@1.10.11)(@wendellhu/redi@0.15.5)(rxjs@7.8.1))(@wendellhu/redi@0.15.5)(rxjs@7.8.1)
       '@univerjs/sheets':
         specifier: 0.2.3
@@ -39,7 +39,7 @@ importers:
         specifier: 0.2.3
         version: 0.2.3(jmwgqx76lljyp7u57g2tckbify)
       '@univerjs/sheets-numfmt':
-        specifier: ^0.2.3
+        specifier: 0.2.3
         version: 0.2.3(olcglgat3rcq5bxa7mmcee5d4e)
       '@univerjs/sheets-ui':
         specifier: 0.2.3
