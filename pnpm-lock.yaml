@@ -1782,8 +1782,8 @@ packages:
       undici-types: 5.26.5
     dev: true
 
-  /@types/node@22.4.1:
-    resolution: {integrity: sha512-1tbpb9325+gPnKK0dMm+/LMriX0vKxf6RnB0SZUqfyVkQ4fMgUSySqhxE/y8Jvs4NyF1yHzTfG9KlnkIODxPKg==}
+  /@types/node@22.5.0:
+    resolution: {integrity: sha512-DkFrJOe+rfdHTqqMg0bSNlGlQ85hSoh2TPzZyhHsXnMtligRWpxUySiyw8FY14ITt24HVCiQPWxS3KO/QlGmWg==}
     dependencies:
       undici-types: 6.19.8
     dev: false
@@ -6188,7 +6188,7 @@ packages:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.4.1
+      '@types/node': 22.5.0
       long: 5.2.3
     dev: false
 
