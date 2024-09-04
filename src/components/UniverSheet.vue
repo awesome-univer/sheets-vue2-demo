@@ -14,6 +14,27 @@ import { UniverSheetsFormulaPlugin } from "@univerjs/sheets-formula";
 import { UniverSheetsUIPlugin } from "@univerjs/sheets-ui";
 import { UniverUIPlugin } from "@univerjs/ui";
 
+if (process.env.NODE_ENV === 'development') {
+  const _ResizeObserver = window.ResizeObserver;
+  function debounce(fn, delay) {
+    let timer = null;
+    return function() {
+      if (timer) {
+        clearTimeout(timer);
+      }
+      timer = setTimeout(() => {
+        fn.apply(this, arguments);
+      }, delay);
+    };
+  }
+  window.ResizeObserver = class ResizeObserver extends _ResizeObserver{
+    constructor(callback) {
+      callback = debounce(callback, 50);
+      super(callback)
+    }
+  }
+}
+
 /**
  * 
  * The ability to import locales from virtual modules and automatically import styles is provided by Univer Plugins. For more details, please refer to: https://univer.ai/guides/sheet/advanced/univer-plugins.
