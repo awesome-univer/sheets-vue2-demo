@@ -1456,7 +1456,7 @@ packages:
     engines: {node: ^8.13.0 || >=10.10.0}
     dependencies:
       '@grpc/proto-loader': 0.7.13
-      '@types/node': 22.7.7
+      '@types/node': 22.7.8
     dev: false
 
   /@grpc/proto-loader@0.7.13:
@@ -1783,8 +1783,8 @@ packages:
       undici-types: 6.19.8
     dev: true
 
-  /@types/node@22.7.7:
-    resolution: {integrity: sha512-SRxCrrg9CL/y54aiMCG3edPKdprgMVGDXjA3gB8UmmBW5TcXzRUYAh8EWzTnSJFAd1rgImPELza+A3bJ+qxz8Q==}
+  /@types/node@22.7.8:
+    resolution: {integrity: sha512-a922jJy31vqR5sk+kAdIENJjHblqcZ4RmERviFsER4WJcEONqxKcjNOlk0q7OUfrF5sddT+vng070cdfMlrPLg==}
     dependencies:
       undici-types: 6.19.8
     dev: false
@@ -1892,7 +1892,7 @@ packages:
       '@rc-component/color-picker': 2.0.1(react-dom@18.3.1)(react@18.3.1)
       '@rc-component/trigger': 2.2.2(react-dom@18.3.1)(react@18.3.1)
       '@types/react-mentions': 4.4.0
-      '@univerjs/icons': 0.1.86(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/icons': 0.1.87(react-dom@18.3.1)(react@18.3.1)
       clsx: 2.1.1
       dayjs: 1.11.13
       rc-dialog: 9.6.0(react-dom@18.3.1)(react@18.3.1)
@@ -1934,7 +1934,7 @@ packages:
       '@univerjs/design': 0.2.11(clsx@2.1.1)(dayjs@1.11.13)(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/docs': 0.2.11(@univerjs/core@0.2.11)(@univerjs/engine-render@0.2.11)(rxjs@7.8.1)
       '@univerjs/engine-render': 0.2.11(@univerjs/core@0.2.11)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.86(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/icons': 0.1.87(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/ui': 0.2.11(@univerjs/core@0.2.11)(@univerjs/design@0.2.11)(@univerjs/engine-formula@0.2.11)(@univerjs/engine-render@0.2.11)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
       clsx: 2.1.1
       react: 18.3.1
@@ -1990,8 +1990,8 @@ packages:
       rxjs: 7.8.1
     dev: false
 
-  /@univerjs/icons@0.1.86(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-0kHXzCfm7bh0cvNPDQ2TgN9t4Vbv+Fj70CICLYaiSoR31BXuhqkUWDv56YyButpxWpZAETRa+xx0kCboNHMdJQ==}
+  /@univerjs/icons@0.1.87(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-YSrFS+eBcwawuHbeTP+25E9SdNgkcyFvBWXJi0JAFUqStQGHTQtoGQRNFMgkKetJZqKCyg8h2dvyynYZIiwSaA==}
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -2051,7 +2051,7 @@ packages:
       '@univerjs/docs': 0.2.11(@univerjs/core@0.2.11)(@univerjs/engine-render@0.2.11)(rxjs@7.8.1)
       '@univerjs/engine-formula': 0.2.11(@univerjs/core@0.2.11)(@univerjs/rpc@0.2.11)(rxjs@7.8.1)
       '@univerjs/engine-render': 0.2.11(@univerjs/core@0.2.11)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.86(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/icons': 0.1.87(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/rpc': 0.2.11(@univerjs/core@0.2.11)(rxjs@7.8.1)
       '@univerjs/sheets': 0.2.11(@grpc/grpc-js@1.9.14)(@univerjs/core@0.2.11)(@univerjs/engine-formula@0.2.11)(@univerjs/engine-numfmt@0.2.11)(@univerjs/rpc@0.2.11)(rxjs@7.8.1)
       '@univerjs/sheets-ui': 0.2.11(@grpc/grpc-js@1.9.14)(@univerjs/core@0.2.11)(@univerjs/design@0.2.11)(@univerjs/docs@0.2.11)(@univerjs/engine-formula@0.2.11)(@univerjs/engine-render@0.2.11)(@univerjs/sheets@0.2.11)(@univerjs/ui@0.2.11)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
@@ -2079,7 +2079,7 @@ packages:
       '@univerjs/design': 0.2.11(clsx@2.1.1)(dayjs@1.11.13)(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/engine-numfmt': 0.2.11
       '@univerjs/engine-render': 0.2.11(@univerjs/core@0.2.11)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.86(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/icons': 0.1.87(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/sheets': 0.2.11(@grpc/grpc-js@1.9.14)(@univerjs/core@0.2.11)(@univerjs/engine-formula@0.2.11)(@univerjs/engine-numfmt@0.2.11)(@univerjs/rpc@0.2.11)(rxjs@7.8.1)
       '@univerjs/sheets-ui': 0.2.11(@grpc/grpc-js@1.9.14)(@univerjs/core@0.2.11)(@univerjs/design@0.2.11)(@univerjs/docs@0.2.11)(@univerjs/engine-formula@0.2.11)(@univerjs/engine-render@0.2.11)(@univerjs/sheets@0.2.11)(@univerjs/ui@0.2.11)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
       '@univerjs/ui': 0.2.11(@univerjs/core@0.2.11)(@univerjs/design@0.2.11)(@univerjs/engine-formula@0.2.11)(@univerjs/engine-render@0.2.11)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
@@ -2108,7 +2108,7 @@ packages:
       '@univerjs/docs': 0.2.11(@univerjs/core@0.2.11)(@univerjs/engine-render@0.2.11)(rxjs@7.8.1)
       '@univerjs/engine-formula': 0.2.11(@univerjs/core@0.2.11)(@univerjs/rpc@0.2.11)(rxjs@7.8.1)
       '@univerjs/engine-render': 0.2.11(@univerjs/core@0.2.11)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.86(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/icons': 0.1.87(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/protocol': 0.1.39-alpha.15(@grpc/grpc-js@1.9.14)(rxjs@7.8.1)
       '@univerjs/sheets': 0.2.11(@grpc/grpc-js@1.9.14)(@univerjs/core@0.2.11)(@univerjs/engine-formula@0.2.11)(@univerjs/engine-numfmt@0.2.11)(@univerjs/rpc@0.2.11)(rxjs@7.8.1)
       '@univerjs/ui': 0.2.11(@univerjs/core@0.2.11)(@univerjs/design@0.2.11)(@univerjs/engine-formula@0.2.11)(@univerjs/engine-render@0.2.11)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
@@ -2158,7 +2158,7 @@ packages:
       '@univerjs/design': 0.2.11(clsx@2.1.1)(dayjs@1.11.13)(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/engine-formula': 0.2.11(@univerjs/core@0.2.11)(@univerjs/rpc@0.2.11)(rxjs@7.8.1)
       '@univerjs/engine-render': 0.2.11(@univerjs/core@0.2.11)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.86(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/icons': 0.1.87(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/ui': 0.2.11(@univerjs/core@0.2.11)(@univerjs/design@0.2.11)(@univerjs/engine-formula@0.2.11)(@univerjs/engine-render@0.2.11)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
       clsx: 2.1.1
       localforage: 1.10.0
@@ -3250,15 +3250,15 @@ packages:
       update-browserslist-db: 1.1.0(browserslist@4.23.3)
     dev: true
 
-  /browserslist@4.24.0:
-    resolution: {integrity: sha512-Rmb62sR1Zpjql25eSanFGEhAxcFwfA1K0GuQcLoaJBAcENegrQut3hYdhXFF1obQfiDyqIW/cLM5HSJ/9k884A==}
+  /browserslist@4.24.2:
+    resolution: {integrity: sha512-ZIc+Q62revdMcqC6aChtW4jz3My3klmCO1fEmINZY/8J3EpBg5/A/D0AKmBveUh6pgoeycoMkVMko84tuYS+Gg==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001669
-      electron-to-chromium: 1.5.41
+      electron-to-chromium: 1.5.42
       node-releases: 2.0.18
-      update-browserslist-db: 1.1.1(browserslist@4.24.0)
+      update-browserslist-db: 1.1.1(browserslist@4.24.2)
     dev: true
 
   /buffer-from@1.1.2:
@@ -4174,8 +4174,8 @@ packages:
     resolution: {integrity: sha512-lbBcvtIJ4J6sS4tb5TLp1b4LyfCdMkwStzXPyAgVgTRAsep4bvrAGaBOP7ZJtQMNJpSQ9SqG4brWOroNaQtm7Q==}
     dev: true
 
-  /electron-to-chromium@1.5.41:
-    resolution: {integrity: sha512-dfdv/2xNjX0P8Vzme4cfzHqnPm5xsZXwsolTYr0eyW18IUmNyG08vL+fttvinTfhKfIKdRoqkDIC9e9iWQCNYQ==}
+  /electron-to-chromium@1.5.42:
+    resolution: {integrity: sha512-gIfKavKDw1mhvic9nbzA5lZw8QSHpdMwLwXc0cWidQz9B15pDoDdDH4boIatuFfeoCatb3a/NGL6CYRVFxGZ9g==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -6215,7 +6215,7 @@ packages:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.7.7
+      '@types/node': 22.7.8
       long: 5.2.3
     dev: false
 
@@ -7450,13 +7450,13 @@ packages:
       picocolors: 1.1.0
     dev: true
 
-  /update-browserslist-db@1.1.1(browserslist@4.24.0):
+  /update-browserslist-db@1.1.1(browserslist@4.24.2):
     resolution: {integrity: sha512-R8UzCaa9Az+38REPiJ1tXlImTJXlVfgHZsglwBD/k6nj76ctsH1E3q4doGrukiLQd3sGQYu56r5+lo5r94l29A==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
     dependencies:
-      browserslist: 4.24.0
+      browserslist: 4.24.2
       escalade: 3.2.0
       picocolors: 1.1.1
     dev: true
@@ -7838,7 +7838,7 @@ packages:
       '@webassemblyjs/wasm-parser': 1.12.1
       acorn: 8.13.0
       acorn-import-attributes: 1.9.5(acorn@8.13.0)
-      browserslist: 4.24.0
+      browserslist: 4.24.2
       chrome-trace-event: 1.0.4
       enhanced-resolve: 5.17.1
       es-module-lexer: 1.5.4
