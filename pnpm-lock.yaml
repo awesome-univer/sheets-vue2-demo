@@ -57,7 +57,7 @@ devDependencies:
     version: 7.25.2
   '@univerjs/webpack-plugin':
     specifier: 0.4.3
-    version: 0.4.3(webpack@5.97.1)
+    version: 0.4.3(webpack@5.98.0)
   '@vue/cli-plugin-babel':
     specifier: ~5.0.8
     version: 5.0.8(@vue/cli-service@5.0.8)(core-js@3.38.1)(vue@2.7.16)
@@ -1455,7 +1455,7 @@ packages:
     engines: {node: ^8.13.0 || >=10.10.0}
     dependencies:
       '@grpc/proto-loader': 0.7.13
-      '@types/node': 22.13.1
+      '@types/node': 22.13.2
     dev: false
 
   /@grpc/proto-loader@0.7.13:
@@ -1790,8 +1790,8 @@ packages:
       '@types/node': 22.5.3
     dev: true
 
-  /@types/node@22.13.1:
-    resolution: {integrity: sha512-jK8uzQlrvXqEU91UxiK5J7pKHyzgnI1Qnl0QDHIgVGuolJhRb9EEl28Cj9b3rGR8B2lhFCtvIm5os8lFnO/1Ew==}
+  /@types/node@22.13.2:
+    resolution: {integrity: sha512-Z+r8y3XL9ZpI2EY52YYygAFmo2/oWfNSj4BCpAXE2McAexDk8VcnBMGC9Djn9gTKt4d2T/hhXqmPzo4hfIXtTg==}
     dependencies:
       undici-types: 6.20.0
     dev: false
@@ -2186,13 +2186,13 @@ packages:
       - typescript
     dev: false
 
-  /@univerjs/webpack-plugin@0.4.3(webpack@5.97.1):
+  /@univerjs/webpack-plugin@0.4.3(webpack@5.98.0):
     resolution: {integrity: sha512-BLv74anZ1GHK36t3msgvoZ3AMqpDmxzLeuDHSTqLemloWcYNnCrSAHIQHBTHD7FscgG1ewa7QVICkx24l9HLeA==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     dependencies:
-      webpack: 5.97.1
+      webpack: 5.98.0
     dev: true
 
   /@vue/babel-helper-vue-jsx-merge-props@1.4.0:
@@ -2475,7 +2475,7 @@ packages:
       clipboardy: 2.3.0
       cliui: 7.0.4
       copy-webpack-plugin: 9.1.0(webpack@5.94.0)
-      css-loader: 6.11.0(webpack@5.97.1)
+      css-loader: 6.11.0(webpack@5.98.0)
       css-minimizer-webpack-plugin: 3.4.1(webpack@5.94.0)
       cssnano: 5.1.15(postcss@8.4.45)
       debug: 4.3.6
@@ -3367,7 +3367,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001699
-      electron-to-chromium: 1.5.97
+      electron-to-chromium: 1.5.98
       node-releases: 2.0.19
       update-browserslist-db: 1.1.2(browserslist@4.24.4)
     dev: true
@@ -3939,7 +3939,7 @@ packages:
       postcss: 8.4.45
     dev: true
 
-  /css-loader@6.11.0(webpack@5.97.1):
+  /css-loader@6.11.0(webpack@5.98.0):
     resolution: {integrity: sha512-CTJ+AEQJjq5NzLga5pE39qdiSV56F8ywCIsqNIRF0r7BDgWsN25aazToqAFg7ZrtA/U016xudB3ffgweORxX7g==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
@@ -3959,7 +3959,7 @@ packages:
       postcss-modules-values: 4.0.0(postcss@8.4.45)
       postcss-value-parser: 4.2.0
       semver: 7.6.3
-      webpack: 5.97.1
+      webpack: 5.98.0
     dev: true
 
   /css-minimizer-webpack-plugin@3.4.1(webpack@5.94.0):
@@ -4285,8 +4285,8 @@ packages:
     resolution: {integrity: sha512-lbBcvtIJ4J6sS4tb5TLp1b4LyfCdMkwStzXPyAgVgTRAsep4bvrAGaBOP7ZJtQMNJpSQ9SqG4brWOroNaQtm7Q==}
     dev: true
 
-  /electron-to-chromium@1.5.97:
-    resolution: {integrity: sha512-HKLtaH02augM7ZOdYRuO19rWDeY+QSJ1VxnXFa/XDFLf07HvM90pALIJFgrO+UVaajI3+aJMMpojoUTLZyQ7JQ==}
+  /electron-to-chromium@1.5.98:
+    resolution: {integrity: sha512-bI/LbtRBxU2GzK7KK5xxFd2y9Lf9XguHooPYbcXWy6wUoT8NMnffsvRhPmSeUHLSDKAEtKuTaEtK4Ms15zkIEA==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -6341,7 +6341,7 @@ packages:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.13.1
+      '@types/node': 22.13.2
       long: 5.3.0
     dev: false
 
@@ -7401,7 +7401,7 @@ packages:
       webpack: 5.94.0
     dev: true
 
-  /terser-webpack-plugin@5.3.11(webpack@5.97.1):
+  /terser-webpack-plugin@5.3.11(webpack@5.98.0):
     resolution: {integrity: sha512-RVCsMfuD0+cTt3EwX8hSl2Ks56EbFHWmhluwcqoPKtBnfjiT6olaq7PRIRfhyU8nnC2MrnDrBLfrD/RGE+cVXQ==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -7421,8 +7421,8 @@ packages:
       jest-worker: 27.5.1
       schema-utils: 4.3.0
       serialize-javascript: 6.0.2
-      terser: 5.38.2
-      webpack: 5.97.1
+      terser: 5.39.0
+      webpack: 5.98.0
     dev: true
 
   /terser@5.31.6:
@@ -7436,8 +7436,8 @@ packages:
       source-map-support: 0.5.21
     dev: true
 
-  /terser@5.38.2:
-    resolution: {integrity: sha512-w8CXxxbFA5zfNsR/i8HZq5bvn18AK0O9jj7hyo1YqkovLxEFa0uP0LCVGZRqiRaKRFxXhELBp8SteeAjEnfeJg==}
+  /terser@5.39.0:
+    resolution: {integrity: sha512-LBAhFyLho16harJoWMg/nZsQYgTrg5jXOn2nCYjRUcZZEdE3qa2zb8QEDRUGVZBW4rlazf2fxkg8tztybTaqWw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -7673,7 +7673,7 @@ packages:
         optional: true
     dependencies:
       '@vue/component-compiler-utils': 3.3.0(react-dom@18.3.1)(react@18.3.1)
-      css-loader: 6.11.0(webpack@5.97.1)
+      css-loader: 6.11.0(webpack@5.98.0)
       hash-sum: 1.0.2
       loader-utils: 1.4.2
       vue-hot-reload-api: 2.3.4
@@ -7974,8 +7974,8 @@ packages:
       - uglify-js
     dev: true
 
-  /webpack@5.97.1:
-    resolution: {integrity: sha512-EksG6gFY3L1eFMROS/7Wzgrii5mBAFe4rIr3r2BTfo7bcc+DWwFZ4OJ/miOuHJO/A85HwyI4eQ0F6IKXesO7Fg==}
+  /webpack@5.98.0:
+    resolution: {integrity: sha512-UFynvx+gM44Gv9qFgj0acCQK2VE1CtdfwFdimkapco3hlPCJ/zeq73n2yVKimVbtm+TnApIugGhLJnkU6gjYXA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -8002,9 +8002,9 @@ packages:
       loader-runner: 4.3.0
       mime-types: 2.1.35
       neo-async: 2.6.2
-      schema-utils: 3.3.0
+      schema-utils: 4.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.11(webpack@5.97.1)
+      terser-webpack-plugin: 5.3.11(webpack@5.98.0)
       watchpack: 2.4.2
       webpack-sources: 3.2.3
     transitivePeerDependencies:
