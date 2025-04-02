@@ -1455,7 +1455,7 @@ packages:
     engines: {node: ^8.13.0 || >=10.10.0}
     dependencies:
       '@grpc/proto-loader': 0.7.13
-      '@types/node': 22.13.16
+      '@types/node': 22.13.17
     dev: false
 
   /@grpc/proto-loader@0.7.13:
@@ -1790,8 +1790,8 @@ packages:
       '@types/node': 22.5.3
     dev: true
 
-  /@types/node@22.13.16:
-    resolution: {integrity: sha512-15tM+qA4Ypml/N7kyRdvfRjBQT2RL461uF1Bldn06K0Nzn1lY3nAPgHlsVrJxdZ9WhZiW0Fmc1lOYMtDsAuB3w==}
+  /@types/node@22.13.17:
+    resolution: {integrity: sha512-nAJuQXoyPj04uLgu+obZcSmsfOenUg6DxPKogeUy6yNCFwWaj5sBF8/G/pNo8EtBJjAfSVgfIlugR/BCOleO+g==}
     dependencies:
       undici-types: 6.20.0
     dev: false
@@ -6341,7 +6341,7 @@ packages:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.13.16
+      '@types/node': 22.13.17
       long: 5.3.1
     dev: false
 
