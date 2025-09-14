@@ -1468,7 +1468,7 @@ packages:
     engines: {node: ^8.13.0 || >=10.10.0}
     dependencies:
       '@grpc/proto-loader': 0.7.15
-      '@types/node': 24.3.3
+      '@types/node': 24.4.0
     dev: false
 
   /@grpc/proto-loader@0.7.15:
@@ -1834,10 +1834,10 @@ packages:
       undici-types: 6.19.8
     dev: true
 
-  /@types/node@24.3.3:
-    resolution: {integrity: sha512-GKBNHjoNw3Kra1Qg5UXttsY5kiWMEfoHq2TmXb+b1rcm6N7B3wTrFYIf/oSZ1xNQ+hVVijgLkiDZh7jRRsh+Gw==}
+  /@types/node@24.4.0:
+    resolution: {integrity: sha512-gUuVEAK4/u6F9wRLznPUU4WGUacSEBDPoC2TrBkw3GAnOLHBL45QdfHOXp1kJ4ypBGLxTOB+t7NJLpKoC3gznQ==}
     dependencies:
-      undici-types: 7.10.0
+      undici-types: 7.11.0
     dev: false
 
   /@types/normalize-package-data@2.4.4:
@@ -6410,7 +6410,7 @@ packages:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 24.3.3
+      '@types/node': 24.4.0
       long: 5.3.2
     dev: false
 
@@ -7615,8 +7615,8 @@ packages:
     resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
     dev: true
 
-  /undici-types@7.10.0:
-    resolution: {integrity: sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==}
+  /undici-types@7.11.0:
+    resolution: {integrity: sha512-kt1ZriHTi7MU+Z/r9DOdAI3ONdaR3M3csEaRc6ewa4f4dTvX4cQCbJ4NkEn0ohE4hHtq85+PhPSTY+pO/1PwgA==}
     dev: false
 
   /unicode-canonical-property-names-ecmascript@2.0.0:
