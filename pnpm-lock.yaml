@@ -3420,7 +3420,7 @@ packages:
     dependencies:
       baseline-browser-mapping: 2.8.7
       caniuse-lite: 1.0.30001745
-      electron-to-chromium: 1.5.223
+      electron-to-chromium: 1.5.224
       node-releases: 2.0.21
       update-browserslist-db: 1.1.3(browserslist@4.26.2)
     dev: true
@@ -4338,8 +4338,8 @@ packages:
     resolution: {integrity: sha512-lbBcvtIJ4J6sS4tb5TLp1b4LyfCdMkwStzXPyAgVgTRAsep4bvrAGaBOP7ZJtQMNJpSQ9SqG4brWOroNaQtm7Q==}
     dev: true
 
-  /electron-to-chromium@1.5.223:
-    resolution: {integrity: sha512-qKm55ic6nbEmagFlTFczML33rF90aU+WtrJ9MdTCThrcvDNdUHN4p6QfVN78U06ZmguqXIyMPyYhw2TrbDUwPQ==}
+  /electron-to-chromium@1.5.224:
+    resolution: {integrity: sha512-kWAoUu/bwzvnhpdZSIc6KUyvkI1rbRXMT0Eq8pKReyOyaPZcctMli+EgvcN1PAvwVc7Tdo4Fxi2PsLNDU05mdg==}
     dev: true
 
   /emoji-regex@8.0.0:
