@@ -57,7 +57,7 @@ devDependencies:
     version: 7.25.2
   '@univerjs/webpack-plugin':
     specifier: 0.4.3
-    version: 0.4.3(webpack@5.102.1)
+    version: 0.4.3(webpack@5.103.0)
   '@vue/cli-plugin-babel':
     specifier: ~5.0.8
     version: 5.0.8(@vue/cli-service@5.0.8)(core-js@3.38.1)(vue@2.7.16)
@@ -2232,13 +2232,13 @@ packages:
       - typescript
     dev: false
 
-  /@univerjs/webpack-plugin@0.4.3(webpack@5.102.1):
+  /@univerjs/webpack-plugin@0.4.3(webpack@5.103.0):
     resolution: {integrity: sha512-BLv74anZ1GHK36t3msgvoZ3AMqpDmxzLeuDHSTqLemloWcYNnCrSAHIQHBTHD7FscgG1ewa7QVICkx24l9HLeA==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     dependencies:
-      webpack: 5.102.1
+      webpack: 5.103.0
     dev: true
 
   /@vue/babel-helper-vue-jsx-merge-props@1.4.0:
@@ -2521,7 +2521,7 @@ packages:
       clipboardy: 2.3.0
       cliui: 7.0.4
       copy-webpack-plugin: 9.1.0(webpack@5.94.0)
-      css-loader: 6.11.0(webpack@5.102.1)
+      css-loader: 6.11.0(webpack@5.103.0)
       css-minimizer-webpack-plugin: 3.4.1(webpack@5.94.0)
       cssnano: 5.1.15(postcss@8.4.45)
       debug: 4.3.6
@@ -3428,7 +3428,7 @@ packages:
     dependencies:
       baseline-browser-mapping: 2.8.29
       caniuse-lite: 1.0.30001755
-      electron-to-chromium: 1.5.254
+      electron-to-chromium: 1.5.255
       node-releases: 2.0.27
       update-browserslist-db: 1.1.4(browserslist@4.28.0)
     dev: true
@@ -4000,7 +4000,7 @@ packages:
       postcss: 8.4.45
     dev: true
 
-  /css-loader@6.11.0(webpack@5.102.1):
+  /css-loader@6.11.0(webpack@5.103.0):
     resolution: {integrity: sha512-CTJ+AEQJjq5NzLga5pE39qdiSV56F8ywCIsqNIRF0r7BDgWsN25aazToqAFg7ZrtA/U016xudB3ffgweORxX7g==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
@@ -4020,7 +4020,7 @@ packages:
       postcss-modules-values: 4.0.0(postcss@8.4.45)
       postcss-value-parser: 4.2.0
       semver: 7.6.3
-      webpack: 5.102.1
+      webpack: 5.103.0
     dev: true
 
   /css-minimizer-webpack-plugin@3.4.1(webpack@5.94.0):
@@ -4346,8 +4346,8 @@ packages:
     resolution: {integrity: sha512-lbBcvtIJ4J6sS4tb5TLp1b4LyfCdMkwStzXPyAgVgTRAsep4bvrAGaBOP7ZJtQMNJpSQ9SqG4brWOroNaQtm7Q==}
     dev: true
 
-  /electron-to-chromium@1.5.254:
-    resolution: {integrity: sha512-DcUsWpVhv9svsKRxnSCZ86SjD+sp32SGidNB37KpqXJncp1mfUgKbHvBomE89WJDbfVKw1mdv5+ikrvd43r+Bg==}
+  /electron-to-chromium@1.5.255:
+    resolution: {integrity: sha512-Z9oIp4HrFF/cZkDPMpz2XSuVpc1THDpT4dlmATFlJUIBVCy9Vap5/rIXsASP1CscBacBqhabwh8vLctqBwEerQ==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -7486,7 +7486,7 @@ packages:
       webpack: 5.94.0
     dev: true
 
-  /terser-webpack-plugin@5.3.14(webpack@5.102.1):
+  /terser-webpack-plugin@5.3.14(webpack@5.103.0):
     resolution: {integrity: sha512-vkZjpUjb6OMS7dhV+tILUW6BhpDR7P2L/aQSAv+Uwk+m8KATX9EccViHTJR2qDtACKPIYndLGCyl3FMo+r2LMw==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -7507,7 +7507,7 @@ packages:
       schema-utils: 4.3.3
       serialize-javascript: 6.0.2
       terser: 5.44.1
-      webpack: 5.102.1
+      webpack: 5.103.0
     dev: true
 
   /terser@5.31.6:
@@ -7758,7 +7758,7 @@ packages:
         optional: true
     dependencies:
       '@vue/component-compiler-utils': 3.3.0(react-dom@18.3.1)(react@18.3.1)
-      css-loader: 6.11.0(webpack@5.102.1)
+      css-loader: 6.11.0(webpack@5.103.0)
       hash-sum: 1.0.2
       loader-utils: 1.4.2
       vue-hot-reload-api: 2.3.4
@@ -8033,8 +8033,8 @@ packages:
     resolution: {integrity: sha512-5tyDlKLqPfMqjT3Q9TAqf2YqjwmnUleZwzJi1A5qXnlBCdj2AtOJ6wAWdglTIDOPgOiOrXeBeFcsQ8+aGQ6QbA==}
     dev: true
 
-  /webpack@5.102.1:
-    resolution: {integrity: sha512-7h/weGm9d/ywQ6qzJ+Xy+r9n/3qgp/thalBbpOi5i223dPXKi04IBtqPN9nTd+jBc7QKfvDbaBnFipYp4sJAUQ==}
+  /webpack@5.103.0:
+    resolution: {integrity: sha512-HU1JOuV1OavsZ+mfigY0j8d1TgQgbZ6M+J75zDkpEAwYeXjWSqrGJtgnPblJjd/mAyTNQ7ygw0MiKOn6etz8yw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -8065,7 +8065,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 4.3.3
       tapable: 2.3.0
-      terser-webpack-plugin: 5.3.14(webpack@5.102.1)
+      terser-webpack-plugin: 5.3.14(webpack@5.103.0)
       watchpack: 2.4.4
       webpack-sources: 3.3.3
     transitivePeerDependencies:
